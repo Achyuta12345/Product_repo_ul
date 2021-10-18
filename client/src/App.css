@@ -1,0 +1,70 @@
+.App {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+ 
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 350px; 
+  
+}
+
+input{
+    height: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.information button{
+  height: 30px;
+  width:5rem;
+  margin-top: 10px;
+  margin-left:40% ;
+  display: flex;
+  padding-top: 0.5rem;
+  justify-content: center; 
+ }
+
+.information button:hover{
+  cursor: pointer;
+}
+
+.showInfo{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+
+  height: auto;
+  width: auto;
+ 
+}
+
+.prodshow{
+  background:#f0f0f0;
+  box-shadow: 0 2px 7px #7209e2;
+  border: 0.1rem solid black;
+  margin: 10px;
+  padding: 1.4rem;
+  height: auto;
+  width: 150px;
+}
+
+.prodshow h6{
+ margin: 2px;
+}
+
+
